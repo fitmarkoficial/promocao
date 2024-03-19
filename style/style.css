@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 1;
+    padding: 1;
+}
+
+body {
+    height: 125vh;
+}
+
+header h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header p {
+    margin-bottom: 0px;
+    font-size: larger;
+}
+
+section#pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso centraliza verticalmente */
+}
+
+section#img {
+    background-image: url('../imagens/1710807351__1_-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: contain;
+    background-position: center;
+    width: 100%; /* Largura da imagem */
+    height: 80vh; /* Altura da imagem */
+    }
+
+button#kiwify-upsell-cancel-trigger {
+    background-color: rgb(235, 51, 51);
+    padding:12px 16px;cursor:pointer;color:#ffffff;font-weight:600;border-radius:4px;border:1px solid;
+    font-size:20px;
+}
